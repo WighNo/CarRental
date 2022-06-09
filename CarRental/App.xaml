@@ -1,0 +1,18 @@
+﻿<Application x:Class="CarRental.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CarRental"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <ResourceDictionary>
+             <ResourceDictionary.MergedDictionaries>
+                 <ResourceDictionary Source="Themes/ButtonOnlyTextAnimation.xaml"/>
+                 <ResourceDictionary Source="Themes/YellowRoundedButton.xaml"/>
+                 <ResourceDictionary Source="Themes/DatePicker.xaml"/>
+                 <ResourceDictionary Source="Themes/ClientCartStyle.xaml"/>
+                 <ResourceDictionary Source="Themes/CarCartWithIndicator.xaml"/>
+                 <ResourceDictionary Source="Themes/RentalCartStyle.xaml"/>
+             </ResourceDictionary.MergedDictionaries>
+         </ResourceDictionary>
+    </Application.Resources>
+</Application>
